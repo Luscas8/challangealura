@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+		<meta charset="UTF-8">
+		<title>Decodificador de Texto - Challenge - 2023</title>
+                <meta name="keyworlds" content="HTML5, CSS, JS" />
+           
+        <meta property="og:image:type" content="image/png" />
+        <meta property="og:image:width" content="1152">
+        <meta property="og:image:height" content="819">
+
+        <link rel="stylesheet" href="style/reset.css">
+		<link rel="stylesheet" href="style/style.css">
+        <link rel="stylesheet" href="style/caixaDeMensagem.css">
+        <link rel="stylesheet" href="style/botoes.css">
+
+        
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+        
+        <link rel="stylesheet" href="style/skin/color-1.css"> 
+     
+        <link rel="stylesheet" 
+            href="style/skin/color-1.css" 
+            class="alternate-style" 
+            title="color-1" 
+            disabled 
+        />
+        <link rel="stylesheet" 
+            href="style/skin/color-2.css"
+            class="alternate-style" 
+            title="color-2" 
+            disabled 
+        />
+	</head>
+    <body>
+        <header>
+            <div class="banner">
+                <img src="image/alura.gif" 
+                    id="banner-noturno"
+                    class="alternate-style" 
+                />
+                <img src="image/logo-Alura.png" 
+                    id="banner-logo"
+                    class="alternate-style" 
+                    title="color-1"
+                />
+                <h2>DECODIFICADOR DE TEXTO - 2023</h2>
+            </div>
+        </header>
+
+        <main class="caixa">
+            <section class="box-mensagem">
+                <textarea id="mensagem" rows="20" cols="12" placeholder="Digite seu texto" autofocus></textarea>
+
+                <div class="botao1">
+                    <img src="image/exclamação.png"><p>Apenas letras minúsculas e sem acento.</p>
+                    <button id="botaoCodificar">Criptografar</button>
+                    <button id="botaoDescodificar">Descriptografar</button></label>
+                </div>
+            </section>
+                    
+            <section class="box-resultado">
+                <textarea id="text-resultado" rows="10" cols="5" readonly placeholder=" " pattern="^[a-zA]+$"></textarea>
+
+                <div id="botao2">
+                    <button id="copy">Copiar</button>
+                    <button id="limpar">Limpar</button>
+                </div>
+            </section>
+
+        </main>
+      
+        <div class="style__switcher">
+            <div class="style__switcher-toggler">
+                <i class="ri-settings-4-fill"></i>
+            </div>
+
+            <div class="colors">
+                <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+              
+                <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+            </div>
+        </div>
+
+                <footer>
+            <div>
+            <img src="image/decodificar.png"></a>
+            </div>
+            <p id="Copyright">&copy; Copyright Lucas Conceição - CHALLENGE ALURA - 2023</p>
+        </footer>
+
+                <script src="scripts/common.js"></script>
+      
+        <script src="scripts/ModoDeLuz.js"></script>
+    </body>
+</html>
+<script src="scripts/codificar.js"></script>
+<script src="scripts/descodificar.js"></script>
+<script src="scripts/botaoLimpar.js"></script>
+<script src="scripts/botaoCopiar.js"></script>
+
+<script src="scripts/urso.js"></script>

@@ -1,0 +1,152 @@
+.caixa textarea {
+    display: inline-block;
+    border-width: 2px;
+    border-radius: 5%;
+}
+
+.box-mensagem {
+
+    vertical-align: top;
+    background-color: transparent;
+    display: inline-block;
+
+    padding-right: 15%;
+
+    border-radius: 5%;
+
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.box-resultado {
+    display: inline-block;
+
+    width: 28%;
+
+    border-width: 2px;
+    border-radius: 5%;
+
+    margin-left: 10%;
+}
+
+
+textarea:focus {
+    outline: none;
+    color: transparent;
+}
+
+#mensagem {
+    background-image: url(../animated/Gif-urso.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+
+    font-family: 'Rubik Bubbles', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+
+    width: 150%;
+
+    padding-top: 3%;
+    border: none; 
+
+    resize: none; 
+}
+#text-resultado {
+    margin-left: 3%;
+
+    padding: 5% 0 0 5%;
+
+    width: 90%;
+    height: 80vh;
+
+    border-radius: 32px;
+
+    font-family: 'Rubik Bubbles', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border: none; 
+
+    resize: none; 
+}
+
+#text-resultado::placeholder {
+    background-image: url(../image/pesquisa1.svg);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 85%;
+
+    padding: 60% 0;
+}
+
+
+@media screen and (max-width: 1039px) {
+    
+    
+    .box-resultado {
+        width: 90%;
+
+        height: 50%;
+
+        margin: 0;
+    
+        margin-left: 5%;
+        margin-bottom: 2%;
+    }
+    #text-resultado {
+        background-color: rgb(255, 255, 255);
+    
+        width: 90%;
+        height: 50%;
+
+        padding: 0;
+    
+        color: #df5505;
+        font-family: 'Rubik Bubbles', sans-serif;
+        font-weight: bold;
+        font-size: 50px;
+    }
+    
+    #text-resultado::placeholder {
+        background-image: none;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 85%;
+    
+        padding: 0;
+    }
+
+   
+    .box-mensagem {
+        background-color: transparent;
+
+        margin-top: 10%;
+        margin-bottom: 5%;
+        
+        display: inline-block;
+
+        vertical-align: top;
+    
+        border-width: 2px;
+        border-radius: 5%;
+    
+        width: 90%;
+        padding-right: 0;
+    }
+    #mensagem {
+        background-color: #df5505;
+        font-size: 50px;
+    
+        background-color: transparent;
+        width: 100%;
+    }
+
+    #ursoFogo {
+        position: absolute;
+        margin: 50% 0 0 20%;
+        width: 50%;
+    }
+}

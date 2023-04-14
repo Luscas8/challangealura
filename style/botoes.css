@@ -1,0 +1,122 @@
+
+#botaoCodificar {
+    margin-left: 12%;
+    width: 200px;
+    padding: 20px 0;
+    margin-top: 2%;
+
+    font-family: 'Rubik Bubbles', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 22px;
+    border-color: transparent;
+    border-radius: 20px;
+    transition: .2s background;
+}
+
+#botaoCodificar:hover{
+    transform: scale(1.2);
+}
+
+#botaoDescodificar {
+    margin-left: 5%;
+    width: 200px;
+    padding: 20px 0;
+    margin-top: 2%;
+    
+    font-family: 'Rubik Bubbles', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 22px;
+    border-radius: 20px;
+    transition: .2s background;
+}
+
+#botaoDescodificar:hover {
+    transform: scale(1.2);
+}
+
+
+#copy {
+    margin-left: 15%;
+    width: 130px;
+    padding: 20px 0;
+
+    font-family: 'Rubik Bubbles', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 18px;
+    border-radius: 20px;
+    transition: .2s background;
+}
+
+#copy:hover {
+    transform: scale(1);
+}
+
+#limpar {
+    margin-left: 3%;
+    width: 130px;
+    padding: 20px 0;
+
+    font-family: 'Rubik Bubbles', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 18px;
+    border-radius: 20px;
+    transition: .2s background;
+}
+
+#limpar:hover {
+    transform: scale(1);
+}
+
+.botao1 {
+    width: 150%;
+    margin: 0;
+    height: 15vh;
+}
+
+
+@media screen and (max-width: 1039px) {
+
+    
+    #botao2 {
+        margin-top: 2%;
+    }
+
+    #copy {
+        margin-left: 5%;
+        width: 40%;
+        padding: 20px 0;
+        font-size: 40px;
+    }
+    
+    #limpar {
+        margin-left: 3%;
+        width: 40%;
+        padding: 20px 0;
+        font-size: 40px;
+    }
+
+    
+    .botao1 {
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 8%;
+        height: 10%;
+    }
+    #botaoCodificar {
+        margin-left: 5%;
+        width: 90%;
+        padding: 50px 0;
+        font-size: 40px;
+    }
+    
+    #botaoDescodificar {
+        margin-left: 5%;
+        width: 90%;
+        padding: 50px 0;
+        font-size: 40px;
+    }
+}

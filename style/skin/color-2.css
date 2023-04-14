@@ -1,0 +1,85 @@
+.color-1 {
+    background-color: #ffffff;
+}
+.color-2 {
+    background-color: #4a4a4a;
+}
+
+.banner {
+    position: relative;
+    width: 90%;
+    margin: 2% auto;
+}
+
+.style__switcher-toggler {
+    background-color: #eb681c;
+    color: #fff;
+}
+
+header {
+    background: #4a4a4a;
+}
+header h2 {
+    color: #eb681c;
+}
+main {
+    background-color: #4a4a4a;
+}
+#Copyright {
+    color: #fff;
+}
+
+
+#botaoCodificar {
+    background-color: #eb681c; 
+    color: #242323;
+}
+#botaoCodificar:hover{
+    background-color: #242323;
+    color: #eb681c;
+    border-color: #242323;
+}
+#botaoDescodificar {
+    background-color: #242323;
+    color: #eb681c;
+    border-color: #eb681c;
+}
+#botaoDescodificar:hover {
+    background-color: #eb681c;
+    color: #242323;
+}
+
+
+#copy {
+    background-color: #242323;
+    color: #eb681c;
+    border-color: #eb681c;
+}
+#copy:hover {
+    background-color: #eb681c;
+    color: #242323;
+}
+#limpar {
+    background-color: #242323;
+    color: #eb681c;
+    border-color: #eb681c;
+}
+#limpar:hover {
+    background-color: #eb681c;
+    color: #242323;
+}
+
+
+#mensagem {
+    color: #eb681c;
+    background-color: transparent;
+}
+#mensagem::placeholder {
+    color: #eb681c;
+}
+
+
+#text-resultado {
+    background-color: #3b3b3b;
+    color: #df5505;
+}

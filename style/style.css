@@ -1,0 +1,154 @@
+header {
+    padding: 20px 0;
+}
+
+.banner {
+    position: relative;
+    width: 90%;
+}
+
+#banner-noturno {
+    position: absolute;
+    left: 2%;
+    width: 6%;
+}
+
+#banner-logo {
+    margin-left: 6%;
+    width: 3%;
+}
+
+header h2 {
+    margin: 0 20% 0 0;
+    text-align: center;
+    font-family: 'Rubik Bubbles', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+
+footer {
+    text-align: center;
+    background: url("../image/bg.jpg");
+    padding: 40px 0;
+}
+
+#Copyright {
+    font-size: 13px;
+    margin: 20px 0 0;
+}
+.botao1 img {
+    float: left;
+    margin-right: 1%;
+    margin-left: 12%;
+}
+
+footer div {
+    display: inline-block;
+    width: 400px;
+}
+
+footer img {
+    vertical-align: bottom;
+    width: 70px;
+}
+
+
+.style__switcher {
+    position: fixed;
+    right: 0;
+    bottom: 20%;
+    padding: 0.625rem;
+    box-shadow: 5px 1px 10px rgba(238, 3, 3, 0.4);
+    background-color: #fffafa;
+    z-index: 101;
+    transform: translate(100%);
+    transition: 0.3s;
+}
+
+.open {
+    transform: translate(0);
+}
+
+.style__switcher-toggler {
+    position: absolute;
+    height: 52px;
+    width: 52px;
+    right: 100%;
+    top: 0;
+    background-color: #898bd8;
+    text-align: center;
+    line-height: 50px;
+    font-size: 1.75rem;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.colors {
+    display: flex;
+    column-gap: 0.625rem;
+}
+
+.colors span {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    border-radius: 2px;
+}
+
+.color-1 {
+    background-color: #ffffff;
+}
+
+
+.color-2 {
+    background-color: #4a4a4a;
+}
+
+@media screen and (max-width: 1039px)  {
+
+    header h2 {
+        display: none;
+    }
+
+    .botao1 img {
+        width: 40px;
+        margin-right: 1%;
+        margin-left: 5%;
+    }
+    .botao1 p {
+        margin-top: 1%;
+        font-size: 30px;
+    }
+
+    #banner-noturno {
+        width: 15%;
+    }
+
+    #banner-logo {
+        margin-left: 6%;
+        width: 5%;
+    }
+
+   
+    .style__switcher {
+        padding: 0.625rem;
+        z-index: 101;
+    }
+
+  
+    .colors span {
+        height: 100px;
+        width: 100px;
+    }
+
+    
+    .style__switcher-toggler {
+        height: 120px;
+        width: 120px;
+        right: 100%;
+        line-height: 120px;
+        font-size: 5rem;
+    }
+}
